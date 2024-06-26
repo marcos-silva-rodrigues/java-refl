@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbb9cd8-6ff0-487b-af41-90061b29c536" name="Changes" comment="feat: Transformator with reflection api">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rodrigues/silva/marcos/refl/TransformatorTest.java" afterDir="false" />
+    <list default="true" id="fdbb9cd8-6ff0-487b-af41-90061b29c536" name="Changes" comment="feat: first test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Endereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/refl/Transformator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/refl/Transformator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rodrigues/silva/marcos/refl/TransformatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rodrigues/silva/marcos/refl/TransformatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TransformatorTest.executor": "Run",
+    "JUnit.TransformatorTest.shouldNotTransform.executor": "Run",
     "JUnit.TransformatorTest.shouldTransform.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,7 +52,7 @@
       <recent name="com.rodrigues.silva.marcos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TransformatorTest">
+  <component name="RunManager" selected="JUnit.TransformatorTest.shouldTransformWhenSomeFieldIsNull">
     <configuration name="TransformatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-refl" />
       <extension name="coverage">
@@ -64,6 +64,22 @@
       <option name="PACKAGE_NAME" value="com.rodrigues.silva.marcos.refl" />
       <option name="MAIN_CLASS_NAME" value="com.rodrigues.silva.marcos.refl.TransformatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformatorTest.shouldNotTransform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-refl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodrigues.silva.marcos.refl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rodrigues.silva.marcos.refl" />
+      <option name="MAIN_CLASS_NAME" value="com.rodrigues.silva.marcos.refl.TransformatorTest" />
+      <option name="METHOD_NAME" value="shouldNotTransform" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,8 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransformatorTest.shouldTransformWhenSomeFieldIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-refl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodrigues.silva.marcos.refl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rodrigues.silva.marcos.refl" />
+      <option name="MAIN_CLASS_NAME" value="com.rodrigues.silva.marcos.refl.TransformatorTest" />
+      <option name="METHOD_NAME" value="shouldTransformWhenSomeFieldIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransformatorTest.shouldTransformWhenSomeFieldIsNull" />
+        <item itemvalue="JUnit.TransformatorTest.shouldNotTransform" />
         <item itemvalue="JUnit.TransformatorTest" />
         <item itemvalue="JUnit.TransformatorTest.shouldTransform" />
       </list>
@@ -131,14 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719430092443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: first test">
+      <option name="closed" value="true" />
+      <created>1719431353678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719431353678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
     <MESSAGE value="feat: base classes" />
     <MESSAGE value="feat: Transformator with reflection api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Transformator with reflection api" />
+    <MESSAGE value="feat: first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: first test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
