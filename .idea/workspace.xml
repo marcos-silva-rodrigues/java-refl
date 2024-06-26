@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbb9cd8-6ff0-487b-af41-90061b29c536" name="Changes" comment="feat: first test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Endereco.java" afterDir="false" />
+    <list default="true" id="fdbb9cd8-6ff0-487b-af41-90061b29c536" name="Changes" comment="feat: others test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/refl/ObjectToJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rodrigues/silva/marcos/refl/TransformatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rodrigues/silva/marcos/refl/TransformatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
     "JUnit.TransformatorTest.executor": "Run",
     "JUnit.TransformatorTest.shouldNotTransform.executor": "Run",
     "JUnit.TransformatorTest.shouldTransform.executor": "Run",
+    "JUnit.TransformatorTest.shouldTransformWhenSomeFieldIsNull.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -52,7 +52,20 @@
       <recent name="com.rodrigues.silva.marcos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TransformatorTest.shouldTransformWhenSomeFieldIsNull">
+  <component name="RunManager" selected="Application.ObjectToJsonTester">
+    <configuration name="ObjectToJsonTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rodrigues.silva.marcos.ObjectToJsonTester" />
+      <module name="java-refl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodrigues.silva.marcos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransformatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-refl" />
       <extension name="coverage">
@@ -118,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectToJsonTester" />
         <item itemvalue="JUnit.TransformatorTest.shouldTransformWhenSomeFieldIsNull" />
         <item itemvalue="JUnit.TransformatorTest.shouldNotTransform" />
         <item itemvalue="JUnit.TransformatorTest" />
@@ -173,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719431353678</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: others test">
+      <option name="closed" value="true" />
+      <created>1719432275026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719432275026</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,7 +203,8 @@
     <MESSAGE value="feat: base classes" />
     <MESSAGE value="feat: Transformator with reflection api" />
     <MESSAGE value="feat: first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: first test" />
+    <MESSAGE value="feat: others test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: others test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
