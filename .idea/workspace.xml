@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbb9cd8-6ff0-487b-af41-90061b29c536" name="Changes" comment="feat: init">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/refl/Transformator.java" afterDir="false" />
+    <list default="true" id="fdbb9cd8-6ff0-487b-af41-90061b29c536" name="Changes" comment="feat: Transformator with reflection api">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/rodrigues/silva/marcos/refl/TransformatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/PessoaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/refl/Transformator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rodrigues/silva/marcos/refl/Transformator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TransformatorTest.shouldTransform.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -48,6 +47,50 @@
     "onboarding.tips.debug.path": "D:/Projetos/java-refl/src/main/java/com/rodrigues/silva/marcos/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rodrigues.silva.marcos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TransformatorTest">
+    <configuration name="TransformatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-refl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodrigues.silva.marcos.refl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rodrigues.silva.marcos.refl" />
+      <option name="MAIN_CLASS_NAME" value="com.rodrigues.silva.marcos.refl.TransformatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformatorTest.shouldTransform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-refl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodrigues.silva.marcos.refl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rodrigues.silva.marcos.refl" />
+      <option name="MAIN_CLASS_NAME" value="com.rodrigues.silva.marcos.refl.TransformatorTest" />
+      <option name="METHOD_NAME" value="shouldTransform" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TransformatorTest" />
+        <item itemvalue="JUnit.TransformatorTest.shouldTransform" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,12 +115,30 @@
       <option name="project" value="LOCAL" />
       <updated>1719427619793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: base classes">
+      <option name="closed" value="true" />
+      <created>1719430073331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719430073331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Transformator with reflection api">
+      <option name="closed" value="true" />
+      <created>1719430092443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719430092443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init" />
+    <MESSAGE value="feat: base classes" />
+    <MESSAGE value="feat: Transformator with reflection api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Transformator with reflection api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
